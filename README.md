@@ -1,16 +1,17 @@
-## Hi there 👋
+## Hi there 👋 Israel here!
+**I'm a passionate Backend-Developer(with knowledge on frontend development) with a superb problem-solving skill, proficiency in JavaScript. I also love analyzing data. I build Restful-APIs which are robust, secure, easy-to-understand and are well-structured. 
 
-<!--
-**Oluiy/oluiy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+** Still in the learning phase😁
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🔭 I’m currently working on the backend with some group of people to develop a food-delivery web-App
+- 🌱 I’m currently learning Advanced JavaScript, fastify framework, nodejs, typescript
+- 😊 I know a bit of C programming as well as Java(beginner-level)
+- 😇 My Skillset include:
+## HTML, CSS, Javascript, python, tailwind-css, bootstrap, nodejs, prisma ORM, Git, Github🧑🏾‍💻.
+
+
+
+
+
+
