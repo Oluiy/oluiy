@@ -42,4 +42,4 @@ I'm a passionate **Full-Stack & Backend Developer** with strong problem-solving 
 ---
 
 ![Oluiy's Stats](https://github-readme-stats.vercel.app/api?username=Oluiy&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
-![oluiy's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=oluiy&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
+![Oluiy's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Oluiy&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
