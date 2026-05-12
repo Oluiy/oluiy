@@ -1,7 +1,7 @@
 ## Hi there 👋 Israel here!
 
-I'm a passionate **Full-Stack & Backend Developer** with strong problem-solving skills and a love for building real-world applications. I write clean, robust, and well-structured code across multiple languages and frameworks. I also have a growing interest in **AI/ML** and love exploring how intelligent systems can solve everyday problems.
-
+I'm a passionate **Full-Stack & Backend Engineer** with strong problem-solving skills and a love for building real-world applications. I write clean, robust, and well-structured code across multiple languages and frameworks. I also have a growing interest in **AI/ML** and love exploring how intelligent systems can solve everyday problems.
+I don't just write or debug codes, I design the very system, I ensure the right decision are taken.
 ---
 
 - 🔭 I'm currently working on **MiniAssetManagementProj** (TypeScript) and a **Prayer Force Telegram Bot** (Python)
