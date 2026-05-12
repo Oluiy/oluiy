@@ -1,6 +1,6 @@
 ## Hi there 👋 Israel here!
 
-I'm a passionate **Full-Stack & Backend Developer** with a strong problem-solving skill and a love for building real-world applications. I write clean, robust, and well-structured code across multiple languages and frameworks. I also have a growing interest in **AI/ML** and love exploring how intelligent systems can solve everyday problems.
+I'm a passionate **Full-Stack & Backend Developer** with strong problem-solving skills and a love for building real-world applications. I write clean, robust, and well-structured code across multiple languages and frameworks. I also have a growing interest in **AI/ML** and love exploring how intelligent systems can solve everyday problems.
 
 ---
 
