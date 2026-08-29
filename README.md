@@ -51,19 +51,19 @@ An interactive .NET CLI that scaffolds a complete **Clean Architecture** ASP.NET
 📖 [Documentation](https://oluiy.github.io/build-quick-aspnet/) · `dotnet tool install --global BuildQuickPkg`
 
 #### 🦀 db-guard · Rust *(source private pending release; happy to walk through it on a call)*
-
+<!--
 **A backup nobody has ever restored is a rumour.** db-guard turns it into a checked fact: it pulls your latest dump, restores it into a throwaway Docker container, counts the tables and rows that came back, and tells you — on your terminal, in Slack, in Telegram, and in a local audit log — whether it actually worked.
 
 - Supports **PostgreSQL, MySQL, SQLite, MongoDB, and Redis**, each through a shared `Verifier` trait.
 - A restore only passes if *all* of it holds: the restore tool exits cleanly, the database actually has tables, those tables actually have rows, and the backup is newer than your `max_age`. A pristine three-week-old dump is still a three-week-old dump.
 - SQLite additionally runs `PRAGMA integrity_check`, since there's no container to check for it. Redis is the odd one out: there's no restore command, an RDB file just loads once, automatically, the moment `redis-server` starts, so a corrupted one shows up as the container crashing on that first load. Early on I had that crash lumped in with "Docker itself isn't working," which is a different problem with a different fix. Caught it and split the two apart. Every engine here got tested against real containers with dumps I deliberately corrupted myself, not mocked ones.
-- `verify --json` exits non-zero on a real failure, so it drops straight into CI to fail a deploy the moment backups stop being restorable. Plus `init`, `doctor`, `history`, cron scheduling, and multi-database watching via `--config-dir`.
+- `verify --json` exits non-zero on a real failure, so it drops straight into CI to fail a deploy the moment backups stop being restorable. Plus `init`, `doctor`, `history`, cron scheduling, and multi-database watching via `--config-dir`.-->
 
 #### 🧩 buildquick · TypeScript *(the cross-stack successor to BuildQuickPkg; private for now)*
 
-Same idea as BuildQuickPkg above, generalised beyond .NET: **one interactive scaffolder, any backend stack**. Pick ASP.NET Core or Spring Boot (Rust/Axum planned), pick Multi-Module, Package-by-Layer, or Package-by-Feature, pick your add-ons, and get a solution that builds and runs immediately, Maven Wrapper and all.
+<!--Same idea as BuildQuickPkg above, generalised beyond .NET: **one interactive scaffolder, any backend stack**. Pick ASP.NET Core or Spring Boot (Rust/Axum planned), pick Multi-Module, Package-by-Layer, or Package-by-Feature, pick your add-ons, and get a solution that builds and runs immediately, Maven Wrapper and all.
 
-Each stack is a self-contained `StackAdapter`, and the interactive engine knows nothing about C#, Java, or Rust specifically. Adding a language just means writing a new adapter. I did it that way on purpose, I didn't want the engine tied to any one language's assumptions.
+Each stack is a self-contained `StackAdapter`, and the interactive engine knows nothing about C#, Java, or Rust specifically. Adding a language just means writing a new adapter. I did it that way on purpose, I didn't want the engine tied to any one language's assumptions.-->
 
 ---
 
