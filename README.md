@@ -33,7 +33,7 @@ A **self-hostable, OpenAI-compatible AI gateway** that stops runaway LLM bills *
 - Every request lands in SQLite: user, cost, tokens, cache hit, never the prompt itself. Dashboard shows it live.
 - Streaming, embeddings, vision, tool calls: all of it works through the cache and the fallback path too, not just plain chat.
 
-📖 [Documentation](https://ai-cost-guard-ruddy.vercel.app/) · `npm install -g fitguard` or `go install github.com/Oluiy/ai-cost-guard/cmd/fitguard@latest`
+📖 [Documentation](https://ai-cost-guard-ruddy.vercel.app/) · `npm install -g fitguard` or `curl -fsSL https://raw.githubusercontent.com/Oluiy/ai-cost-guard/main/install.sh | sh`
 
 #### 🏗️ [BuildQuickPkg](https://github.com/Oluiy/build-quick-aspnet) · C# / .NET
 
@@ -47,6 +47,7 @@ An interactive .NET CLI that scaffolds a complete **Clean Architecture** ASP.NET
 - **Monolith or microservices**, with as many named services as you want.
 - Optional EF Core (with a generated `DbContext` and repository/unit-of-work templates for transactional work), JWT auth, Docker + `docker-compose`, Serilog structured logging, and xUnit + `WebApplicationFactory` integration tests.
 - Per-environment `appsettings` done properly: a committable dev config, and a production config with secrets deliberately left blank for env vars or a secret manager.
+- Helps setup Caddy file for reverse proxy and SSL termination.
 
 📖 [Documentation](https://oluiy.github.io/build-quick-aspnet/) · `dotnet tool install --global BuildQuickPkg`
 
@@ -88,7 +89,7 @@ Data analytics and reporting on player engagement trends; research and findings 
 
 - **Cut projected infrastructure spend by 60% at BLYKN**: architected a hybrid-cloud microservice setup on DigitalOcean Kubernetes plus Azure Service Bus rather than a full Azure deployment, and held a production-grade SLA doing it. The 60% is measured against the costed-out all-Azure alternative, not against a previous bill.
 - **Designed a budget system that survives concurrency**: FitGuard reserves each request's worst-case cost *before* the upstream call, so simultaneous requests can't jointly blow through a limit. Getting that right is the difference between a spending cap and a suggestion.
-- **Published tools people can actually install**: [BuildQuickPkg](https://www.nuget.org/packages/BuildQuickPkg) on NuGet (v1.1.0, seven releases) and [FitGuard](https://www.npmjs.com/package/fitguard) on npm, each with a documentation site instead of a lonely README.
+- **Published tools that solved real-world problems people can actually install and make use of**: [BuildQuickPkg](https://www.nuget.org/packages/BuildQuickPkg) on NuGet (v1.1.0, seven releases) and [FitGuard](https://www.npmjs.com/package/fitguard) on npm, each with a documentation site instead of a lonely README.
 
 ---
 
@@ -96,13 +97,13 @@ Data analytics and reporting on player engagement trends; research and findings 
 
 **Languages:** C# (primary), TypeScript, Python, JavaScript, SQL, C · *currently learning:* Rust, Go
 
-**Backend:** ASP.NET Core / .NET 8–9, Node.js, NestJS, Express, Fastify, FastAPI
+**Backend:** ASP.NET Core / .NET 8–9, Node.js(NestJS, Express, Fastify), FastAPI
 
-**Data:** PostgreSQL, MySQL, MongoDB, Redis, SQLite, EF Core, Prisma ORM
+**Data, Database & ORM:** PostgreSQL, MySQL, MongoDB, Redis, SQLite, ORM (EF Core, Prisma ORM)
 
 **Cloud & DevOps:** Docker, Kubernetes, Azure (Service Bus, App Services), DigitalOcean (Kubernetes, Spaces), AWS, Cloudflare, GitHub Actions, cert-manager, Git/GitHub
 
-**Architecture:** Distributed systems, event-driven messaging, Clean Architecture, systems design, database design, API design & documentation
+**Architecture:** Distributed systems, event-driven messaging, Clean Architecture, systems design, database design, API design & detailed documentation
 
 **Frontend:** React.js, Tailwind CSS, Motion, HTML5, CSS3, Bootstrap
 
