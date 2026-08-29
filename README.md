@@ -50,8 +50,9 @@ An interactive .NET CLI that scaffolds a complete **Clean Architecture** ASP.NET
 
 📖 [Documentation](https://oluiy.github.io/build-quick-aspnet/) · `dotnet tool install --global BuildQuickPkg`
 
-#### 🦀 db-guard · Rust *(source private pending release; happy to walk through it on a call)*
+#### 🦀 db-guard · Rust *(source private pending release)*
 <!--
+happy to walk through it on a call
 **A backup nobody has ever restored is a rumour.** db-guard turns it into a checked fact: it pulls your latest dump, restores it into a throwaway Docker container, counts the tables and rows that came back, and tells you — on your terminal, in Slack, in Telegram, and in a local audit log — whether it actually worked.
 
 - Supports **PostgreSQL, MySQL, SQLite, MongoDB, and Redis**, each through a shared `Verifier` trait.
