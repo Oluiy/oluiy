@@ -2,7 +2,7 @@
 
 **Backend-heavy Software Engineer** · C#/.NET first, plus TypeScript and Python · Lagos, Nigeria 🇳🇬
 
-I build the parts of software that aren't glamorous but have to work: APIs that don't fall over, backups that actually restore when it matters. I try to write code that's still easy to follow six months later, and I'm just as comfortable in React and Tailwind when something needs a face, not just an engine.
+I build the parts of software that are underrated and not seen but have to work: APIs that don't fall over, infrastructure that supports them. I try to write code that's still easy to follow six months later, easily understood even by someone who's not me and I'm just as comfortable in React and Tailwind when an idea needs a face, not just an engine.
 
 But I don't just write or debug code. **I design the system.** What actually matters to me is the decision behind it: why a boundary sits where it does, what happens at 3am when a provider goes down, whether the next person to touch this curses my name or not. A lot of what I've shipped lately came from hitting the same failure twice. A bill nobody caught in time. A restore nobody had actually tried. Boilerplate I'd typed out by hand once too often. Each one turned into something I only had to build once.
 
@@ -10,9 +10,9 @@ But I don't just write or debug code. **I design the system.** What actually mat
 
 ### 🔭 Right now
 
-C#/.NET is home base, the one I'm strongest in. TypeScript and Python come right after, I reach for them without thinking about it. I'm also **picking up Rust and Go**, and the only way that's ever actually stuck for me is building something real in it, something unforgiving enough that I can't fake my way through. That's what db-guard did for Rust. FitGuard did the same for Go. Both are below, and both do work I'd trust with someone else's data.
+C#/.NET is home base, the one I'm strongest in. TypeScript and Python come right after, I reach for them without thinking about it. I'm also **picking up Rust and Go**, and the only way that's ever actually stuck for me is building something real using it, something unforgiving enough that I can't fake my way through. That's what db-guard did for Rust. FitGuard did the same for Go. Both are below, and both do work I'd trust with someone else's data.
 
-Beyond that, I'm going deeper on **distributed systems** and the practical side of running LLMs in production.
+Beyond that, I'm going deeper on **distributed systems** and the practical side of running LLMs in production. I am actively learning the theoretical and practical aspects of engineering which includes understanding the abstractions, understanding basics of systems, understanding the OSI models, networking, and more. I choose simplicity over complexity.
 
 ---
 
@@ -26,12 +26,12 @@ Beyond that, I'm going deeper on **distributed systems** and the practical side 
 
 A **self-hostable, OpenAI-compatible AI gateway** that stops runaway LLM bills *before* they happen: the kind of incident where a stuck loop or an unbounded `max_tokens` turns into an $8K bill. It's a single Go binary with no required dependencies: change one `baseURL` and your existing OpenAI/Anthropic/Gemini/Groq/Together SDK calls keep working, now with guardrails.
 
-- **Per-user budgets, enforced properly.** Worst-case cost gets reserved before the request goes upstream, so two requests firing at once can't both squeak under the limit. It's tied to the API key, not to whatever the caller claims about itself.
+<!--- **Per-user budgets, enforced properly.** Worst-case cost gets reserved before the request goes upstream, so two requests firing at once can't both squeak under the limit. It's tied to the API key, not to whatever the caller claims about itself.
 - **Caching that only fires on exact matches.** No semantic fuzziness, no surprises: same prompt inside the TTL costs $0.
 - Flags a `finish_reason` of `length`, usually the first sign something's stuck in a loop.
 - Falls back automatically if a provider errors out or rate-limits you, before the client ever notices.
 - Every request lands in SQLite: user, cost, tokens, cache hit, never the prompt itself. Dashboard shows it live.
-- Streaming, embeddings, vision, tool calls: all of it works through the cache and the fallback path too, not just plain chat.
+- Streaming, embeddings, vision, tool calls: all of it works through the cache and the fallback path too, not just plain chat.-->
 
 📖 [Documentation](https://ai-cost-guard-ruddy.vercel.app/) · `npm install -g fitguard` or `curl -fsSL https://raw.githubusercontent.com/Oluiy/ai-cost-guard/main/install.sh | sh`
 
@@ -43,11 +43,11 @@ A **self-hostable, OpenAI-compatible AI gateway** that stops runaway LLM bills *
 
 An interactive .NET CLI that scaffolds a complete **Clean Architecture** ASP.NET Core solution (API, Application, Domain, and optionally Infrastructure), already wired up, testable, and building in seconds. `dotnet new` gives you an empty folder. This gives you something that actually runs.
 
-- 3-layer or 4-layer architecture, Minimal API or Controllers + Services: all real interactive choices, not one baked-in opinion.
+<!--- 3-layer or 4-layer architecture, Minimal API or Controllers + Services: all real interactive choices, not one baked-in opinion.
 - **Monolith or microservices**, with as many named services as you want.
 - Optional EF Core (with a generated `DbContext` and repository/unit-of-work templates for transactional work), JWT auth, Docker + `docker-compose`, Serilog structured logging, and xUnit + `WebApplicationFactory` integration tests.
 - Per-environment `appsettings` done properly: a committable dev config, and a production config with secrets deliberately left blank for env vars or a secret manager.
-- Helps setup Caddy file for reverse proxy and SSL termination.
+- Helps setup Caddy file for reverse proxy and SSL termination.-->
 
 📖 [Documentation](https://oluiy.github.io/build-quick-aspnet/) · `dotnet tool install --global BuildQuickPkg`
 
@@ -78,7 +78,7 @@ Leading the modernization of core legacy systems: upgrading outdated frameworks 
 Applying Jobs-to-Be-Done and MoSCoW prioritization alongside user interviews to map real user friction into a product roadmap. Engineered an internal analytics tool that automated client campaign tracking, replacing manual monitoring with real-time performance insights.
 
 **Independent engineering & open source** · *2024 – Present*
-Alongside my degree, I spent this stretch building backend systems for early-stage products, and turning recurring headaches into tools I could stop rebuilding: a scaffolder, once I'd retyped the same folder structure one too many times. A gateway, after an LLM bill got away from me. A backup verifier, once I realised nobody on any team I'd worked with had ever actually tried restoring one. Everything above came out of this stretch.
+Alongside my degree, I spent this stretch building backend systems for early-stage products, and turning recurring headaches into tools I could stop rebuilding: a scaffolder, once I'd retyped the same folder structure one too many times. A gateway, after an LLM bill got away from me(and also acts like an aggregator of AI services). A backup verifier, once I realised nobody on any team I'd worked with had ever actually tried restoring one. Everything above came out of this stretch.
 
 **Game Research Analyst Intern, Extern (Mobalytics)** · *April 2024 – May 2024*
 Data analytics and reporting on player engagement trends; research and findings delivered to program leadership, contributing to a measurable shift toward more action/combat-oriented content.
@@ -95,21 +95,15 @@ Data analytics and reporting on player engagement trends; research and findings 
 
 ### 🧑🏾‍💻 Tech stack & skills
 
-**Languages:** C# (primary), TypeScript, Python, JavaScript, SQL, C · *currently learning:* Rust, Go
+- **Languages:** C# (primary), TypeScript, Python, JavaScript, SQL, C · *currently learning:* Rust, Go
+- **Backend:** ASP.NET Core / .NET 8–9, Node.js(NestJS, Express, Fastify), FastAPI
+- **Data, Database & ORM:** PostgreSQL, MySQL, MongoDB, Redis, SQLite, ORM (EF Core, Prisma ORM)
+- **Cloud & DevOps:** Docker, Kubernetes, Azure (Service Bus, App Services), DigitalOcean (Droplets, Spaces), AWS, Cloudflare, GitHub Actions, cert-manager, Git/GitHub 
+- **Architecture:** Distributed systems, event-driven messaging, Clean Architecture, systems design, database design, API design & detailed documentation
+- **Frontend:** React.js, Tailwind CSS, Motion, HTML5, CSS3, Bootstrap
+- **AI/ML:** LLM gateways & cost control, NLP/LLM integration, emotion detection, prompt engineering
 
-**Backend:** ASP.NET Core / .NET 8–9, Node.js(NestJS, Express, Fastify), FastAPI
-
-**Data, Database & ORM:** PostgreSQL, MySQL, MongoDB, Redis, SQLite, ORM (EF Core, Prisma ORM)
-
-**Cloud & DevOps:** Docker, Kubernetes, Azure (Service Bus, App Services), DigitalOcean (Kubernetes, Spaces), AWS, Cloudflare, GitHub Actions, cert-manager, Git/GitHub
-
-**Architecture:** Distributed systems, event-driven messaging, Clean Architecture, systems design, database design, API design & detailed documentation
-
-**Frontend:** React.js, Tailwind CSS, Motion, HTML5, CSS3, Bootstrap
-
-**AI/ML:** LLM gateways & cost control, NLP/LLM integration, emotion detection, prompt engineering
-
----
+<!-----
 
 ### 📌 Earlier projects
 
@@ -127,9 +121,9 @@ Where I cut my teeth. Smaller, but each one taught me something I still use.
 | [VendorInfoSys](https://github.com/Oluiy/VendorInfoSys) | Vendor directory for a university campus | JavaScript |
 | [mindease-ai](https://github.com/Oluiy/mindease-ai) | AI mental health companion frontend | JavaScript |
 | [Library_And_TodoConsoleApp](https://github.com/Oluiy/Library_And_TodoConsoleApp) | Library & Todo console apps, OOP principles end to end | C#/.NET |
-| [fastapi-book-project](https://github.com/Oluiy/fastapi-book-project) | HNG12 DevOps × Backend stage project | Python, FastAPI |
+| [fastapi-book-project](https://github.com/Oluiy/fastapi-book-project) | HNG12 DevOps × Backend stage project | Python, FastAPI |-->
 
----
+<!-----
 
 ### 🎓 Education & certifications
 
@@ -139,7 +133,7 @@ Where I cut my teeth. Smaller, but each one taught me something I still use.
 - Ubuntu Linux Professional Certificate
 - Prompt Engineering for Large Language Models (LLMs) · OBTranslate
 
----
+----->
 
 ### ✍️ Writing
 
