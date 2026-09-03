@@ -21,7 +21,7 @@ Beyond that, I'm going deeper on **distributed systems** and the practical side 
 #### 🛡️ [FitGuard](https://github.com/Oluiy/ai-cost-guard) · Go
 
 [![npm](https://img.shields.io/npm/v/fitguard.svg?label=npm)](https://www.npmjs.com/package/fitguard)
-[![Downloads](https://img.shields.io/npm/dm/fitguard.svg)](https://www.npmjs.com/package/fitguard)
+[![Downloads](https://img.shields.io/npm/dt/fitguard.svg)](https://www.npmjs.com/package/fitguard)
 [![License: Apache](https://img.shields.io/badge/License-Apache-yellow.svg)](https://github.com/Oluiy/ai-cost-guard/blob/main/LICENSE)
 
 A **self-hostable, OpenAI-compatible AI gateway** that stops runaway LLM bills *before* they happen: the kind of incident where a stuck loop or an unbounded `max_tokens` turns into an $8K bill. It's a single Go binary with no required dependencies: change one `baseURL` and your existing OpenAI/Anthropic/Gemini/Groq/Together SDK calls keep working, now with guardrails.
