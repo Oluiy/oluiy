@@ -24,7 +24,7 @@ Beyond that, I'm going deeper on **distributed systems** and the practical side 
 [![Downloads](https://img.shields.io/npm/dt/fitguard.svg)](https://www.npmjs.com/package/fitguard)
 [![License: Apache](https://img.shields.io/badge/License-Apache-yellow.svg)](https://github.com/Oluiy/ai-cost-guard/blob/main/LICENSE)
 
-A **self-hostable, OpenAI-compatible AI gateway** that stops runaway LLM bills *before* they happen: the kind of incident where a stuck loop or an unbounded `max_tokens` turns into an $8K bill. It's a single Go binary with no required dependencies: change one `baseURL` and your existing OpenAI/Anthropic/Gemini/Groq/Together SDK calls keep working, now with guardrails.
+A **self-hostable, OpenAI-compatible AI gateway** that stops runaway LLM bills *before* they happen: the kind of incident where a stuck loop or an unbounded `max_tokens` turns into an $8K bill. It's a single Go binary with no required dependencies: change one `baseURL` and your existing OpenAI/Anthropic/Gemini/Groq/Together SDK calls keep working, now with guardrails. It serves as an aggregator and guard at the same time.
 
 <!--- **Per-user budgets, enforced properly.** Worst-case cost gets reserved before the request goes upstream, so two requests firing at once can't both squeak under the limit. It's tied to the API key, not to whatever the caller claims about itself.
 - **Caching that only fires on exact matches.** No semantic fuzziness, no surprises: same prompt inside the TTL costs $0.
@@ -154,6 +154,7 @@ If you're building something backend-heavy, fighting an LLM bill, or wondering w
 😇 Always learning, always building 🚀
 
 ---
+[![GitHub Streak](https://streak-stats.demolab.com?user=Oluiy&theme=transparent)](https://git.io/streak-stats)
 
 ![Oluiy's Stats](https://github-readme-stats.vercel.app/api?username=Oluiy&theme=vue-dark&show_icons=true&hide_border=true)
 ![Oluiy's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Oluiy&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
