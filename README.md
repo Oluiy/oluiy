@@ -51,7 +51,7 @@ An interactive .NET CLI that scaffolds a complete **Clean Architecture** ASP.NET
 
 📖 [Documentation](https://oluiy.github.io/build-quick-aspnet/) · `dotnet tool install --global BuildQuickPkg`
 
-#### 🧩 agbar · Built using Typescript*
+#### 🧩 [agbar](https://github.com/Oluiy/agbar)  · Built using Typescript*
 [![npm](https://img.shields.io/npm/v/@oluiy/agbar.svg?label=npm)](https://www.npmjs.com/package/@oluiy/agbar)
 [![Downloads](https://img.shields.io/npm/dt/@oluiy/agbar.svg)](https://www.npmjs.com/package/@oluiy/agbar)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Oluiy/agbar/blob/main/LICENSE)
