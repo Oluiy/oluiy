@@ -51,7 +51,14 @@ An interactive .NET CLI that scaffolds a complete **Clean Architecture** ASP.NET
 
 📖 [Documentation](https://oluiy.github.io/build-quick-aspnet/) · `dotnet tool install --global BuildQuickPkg`
 
-#### 🦀 db-guard · Rust *(source private pending release)*
+#### 🧩 agbar · Built using Typescript*
+[![npm](https://img.shields.io/npm/v/@oluiy/agbar.svg?label=npm)](https://www.npmjs.com/package/@oluiy/agbar)
+[![Downloads](https://img.shields.io/npm/dt/@oluiy/agbar.svg)](https://www.npmjs.com/package/@oluiy/agbar)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Oluiy/agbar/blob/main/LICENSE)
+
+A static analysis tool that grades your repo to know whether it is production ready, it utilizes key concepts and implementation which are industry standards to grade, also it helps to learn important concept, and helps to improve on your codebase and theoretical and practical skill.
+
+<!--#### 🦀 db-guard · Rust *(source private pending release)*-->
 <!--
 happy to walk through it on a call
 **A backup nobody has ever restored is a rumour.** db-guard turns it into a checked fact: it pulls your latest dump, restores it into a throwaway Docker container, counts the tables and rows that came back, and tells you — on your terminal, in Slack, in Telegram, and in a local audit log — whether it actually worked.
@@ -60,8 +67,6 @@ happy to walk through it on a call
 - A restore only passes if *all* of it holds: the restore tool exits cleanly, the database actually has tables, those tables actually have rows, and the backup is newer than your `max_age`. A pristine three-week-old dump is still a three-week-old dump.
 - SQLite additionally runs `PRAGMA integrity_check`, since there's no container to check for it. Redis is the odd one out: there's no restore command, an RDB file just loads once, automatically, the moment `redis-server` starts, so a corrupted one shows up as the container crashing on that first load. Early on I had that crash lumped in with "Docker itself isn't working," which is a different problem with a different fix. Caught it and split the two apart. Every engine here got tested against real containers with dumps I deliberately corrupted myself, not mocked ones.
 - `verify --json` exits non-zero on a real failure, so it drops straight into CI to fail a deploy the moment backups stop being restorable. Plus `init`, `doctor`, `history`, cron scheduling, and multi-database watching via `--config-dir`.-->
-
-#### 🧩 buildquick · TypeScript *(the cross-stack successor to BuildQuickPkg; private for now)*
 
 <!--Same idea as BuildQuickPkg above, generalised beyond .NET: **one interactive scaffolder, any backend stack**. Pick ASP.NET Core or Spring Boot (Rust/Axum planned), pick Multi-Module, Package-by-Layer, or Package-by-Feature, pick your add-ons, and get a solution that builds and runs immediately, Maven Wrapper and all.
 
@@ -155,6 +160,7 @@ If you're building something backend-heavy, fighting an LLM bill, or wondering w
 
 ---
 [![GitHub Streak](https://streak-stats.demolab.com?user=Oluiy&theme=transparent)](https://git.io/streak-stats)
+<!--[![Anurag's GitHub stats](https://github-stats-extended.vercel.app/api?username=anuraghazra)](https://github.com/stats-organization/github-stats-extended)-->
 
 ![Oluiy's Stats](https://github-readme-stats.vercel.app/api?username=Oluiy&theme=vue-dark&show_icons=true&hide_border=true)
 ![Oluiy's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Oluiy&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
