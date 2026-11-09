@@ -19,15 +19,27 @@ I build the parts of an application nobody sees but everybody relies on: stable 
 
 ### 🚀 Open source I've published
 
-#### 🛡️ [FitGuard](https://github.com/Oluiy/ai-cost-guard) · Go · [![npm](https://img.shields.io/npm/dt/fitguard.svg?label=npm%20downloads)](https://www.npmjs.com/package/fitguard)
+#### 🛡️ [FitGuard](https://github.com/Oluiy/ai-cost-guard) · Go
+
+[![npm](https://img.shields.io/npm/v/fitguard.svg?label=npm)](https://www.npmjs.com/package/fitguard)
+[![Downloads](https://img.shields.io/npm/dt/fitguard.svg)](https://www.npmjs.com/package/fitguard)
+[![License: Apache](https://img.shields.io/badge/License-Apache-yellow.svg)](https://github.com/Oluiy/ai-cost-guard/blob/main/LICENSE)
 
 A self-hostable, OpenAI-compatible AI gateway that cuts off runaway LLM bills before they happen. Budgets set aside each request's maximum possible cost before the upstream call, so concurrent requests can't jointly exceed a limit. [Docs](https://ai-cost-guard-ruddy.vercel.app/)
 
-#### 🏗️ [BuildQuickPkg](https://github.com/Oluiy/build-quick-aspnet) · C#/.NET · [![NuGet](https://img.shields.io/nuget/dt/BuildQuickPkg.svg?label=nuget%20downloads)](https://www.nuget.org/packages/BuildQuickPkg)
+#### 🏗️ [BuildQuickPkg](https://github.com/Oluiy/build-quick-aspnet) · C#/.NET
+
+[![NuGet](https://img.shields.io/nuget/v/BuildQuickPkg.svg)](https://www.nuget.org/packages/BuildQuickPkg)
+[![Downloads](https://img.shields.io/nuget/dt/BuildQuickPkg.svg)](https://www.nuget.org/packages/BuildQuickPkg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Oluiy/build-quick-aspnet/blob/main/LICENSE)
 
 A CLI that scaffolds a Clean Architecture ASP.NET Core solution that builds and runs in seconds, with optional EF Core, JWT, Docker and tests. [Docs](https://oluiy.github.io/build-quick-aspnet/)
 
-#### 🧩 [agbar](https://github.com/Oluiy/agbar) · TypeScript · [![npm](https://img.shields.io/npm/dt/@oluiy/agbar.svg?label=npm%20downloads)](https://www.npmjs.com/package/@oluiy/agbar)
+#### 🧩 [agbar](https://github.com/Oluiy/agbar) · TypeScript
+
+[![npm](https://img.shields.io/npm/v/@oluiy/agbar.svg?label=npm)](https://www.npmjs.com/package/@oluiy/agbar)
+[![Downloads](https://img.shields.io/npm/dt/@oluiy/agbar.svg)](https://www.npmjs.com/package/@oluiy/agbar)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Oluiy/agbar/blob/main/LICENSE)
 
 Grades your backend repo, points out production problems, and explains why each one matters. Works locally.
 
@@ -58,3 +70,11 @@ Building something backend-heavy? I'd love to hear about it.
 [![Email](https://img.shields.io/badge/Email-akinboyewaiyanuoluwa15@gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:akinboyewaiyanuoluwa15@gmail.com)
 [![Substack](https://img.shields.io/badge/Substack-iyanuoluwaubuntu-FF6719?logo=substack&logoColor=white)](https://substack.com/@iyanuoluwaubuntu)
 [![Medium](https://img.shields.io/badge/Medium-akinboyewaiyanuoluwa15-000000?logo=medium&logoColor=white)](https://medium.com/@akinboyewaiyanuoluwa15)
+
+---
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=Oluiy&theme=transparent)](https://git.io/streak-stats)
+
+![Oluiy's Stats](https://github-readme-stats.vercel.app/api?username=Oluiy&theme=vue-dark&show_icons=true&hide_border=true)
+
+![Oluiy's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Oluiy&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
