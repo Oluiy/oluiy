@@ -19,13 +19,16 @@ I build the parts of an application nobody sees but everybody relies on: stable 
 
 ### 🚀 Open source I've published
 
-**🛡️ [FitGuard](https://github.com/Oluiy/ai-cost-guard)** · Go · [![npm](https://img.shields.io/npm/dt/fitguard.svg?label=npm%20downloads)](https://www.npmjs.com/package/fitguard)
+#### 🛡️ [FitGuard](https://github.com/Oluiy/ai-cost-guard) · Go · [![npm](https://img.shields.io/npm/dt/fitguard.svg?label=npm%20downloads)](https://www.npmjs.com/package/fitguard)
+
 A self-hostable, OpenAI-compatible AI gateway that cuts off runaway LLM bills before they happen. Budgets set aside each request's maximum possible cost before the upstream call, so concurrent requests can't jointly exceed a limit. [Docs](https://ai-cost-guard-ruddy.vercel.app/)
 
-**🏗️ [BuildQuickPkg](https://github.com/Oluiy/build-quick-aspnet)** · C#/.NET · [![NuGet](https://img.shields.io/nuget/dt/BuildQuickPkg.svg?label=nuget%20downloads)](https://www.nuget.org/packages/BuildQuickPkg)
+#### 🏗️ [BuildQuickPkg](https://github.com/Oluiy/build-quick-aspnet) · C#/.NET · [![NuGet](https://img.shields.io/nuget/dt/BuildQuickPkg.svg?label=nuget%20downloads)](https://www.nuget.org/packages/BuildQuickPkg)
+
 A CLI that scaffolds a Clean Architecture ASP.NET Core solution that builds and runs in seconds, with optional EF Core, JWT, Docker and tests. [Docs](https://oluiy.github.io/build-quick-aspnet/)
 
-**🧩 [agbar](https://github.com/Oluiy/agbar)** · TypeScript · [![npm](https://img.shields.io/npm/dt/@oluiy/agbar.svg?label=npm%20downloads)](https://www.npmjs.com/package/@oluiy/agbar)
+#### 🧩 [agbar](https://github.com/Oluiy/agbar) · TypeScript · [![npm](https://img.shields.io/npm/dt/@oluiy/agbar.svg?label=npm%20downloads)](https://www.npmjs.com/package/@oluiy/agbar)
+
 Grades your backend repo, points out production problems, and explains why each one matters. Works locally.
 
 ---
@@ -42,6 +45,7 @@ Grades your backend repo, points out production problems, and explains why each 
 ### 🎓 Education
 
 **B.Sc. Computer Science**, Covenant University, Ota, Nigeria · *2023 – Present*
+
 Certificates: Docker Foundations · Ubuntu Linux · Prompt Engineering for LLMs (OBTranslate)
 
 ---
