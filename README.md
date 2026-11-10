@@ -12,7 +12,7 @@ I build the parts of an application nobody sees but everybody relies on: stable 
 - Built an internal analytics system that replaced manual campaign tracking with live reporting.
 
 **Backend Engineer, BLYKN** · *April 2026 – October 2026 · Remote*
-- Reduced projected infrastructure spend by **60%** by using a hybrid setup (DigitalOcean Kubernetes + Azure Service Bus) instead of a full Azure deployment, while meeting a production-grade SLA.
+- Reduced projected infrastructure spend by **60%** by using a hybrid setup (DigitalOcean Droplets + Azure Service Bus) instead of a full Azure deployment, while meeting a production-grade SLA.
 - Modernized legacy systems: upgraded frameworks, moved deployments to containers, and built a messaging layer that connects independent services.
 
 ---
