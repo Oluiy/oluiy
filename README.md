@@ -40,6 +40,7 @@ A CLI that scaffolds a Clean Architecture ASP.NET Core solution that builds and 
 [![npm](https://img.shields.io/npm/v/@oluiy/agbar.svg?label=npm)](https://www.npmjs.com/package/@oluiy/agbar)
 [![Downloads](https://img.shields.io/npm/dt/@oluiy/agbar.svg)](https://www.npmjs.com/package/@oluiy/agbar)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Oluiy/agbar/blob/main/LICENSE)
+[![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/Oluiy/badge.svg)](https://hub.xerj.org/contributors/Oluiy)
 
 Grades your backend repo, points out production problems, and explains why each one matters. Works locally.
 
